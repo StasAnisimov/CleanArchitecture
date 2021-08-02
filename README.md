@@ -1,1 +1,2 @@
-# CleanArchitecture
+# TNTestTask
+Тестовое для Together Networks
