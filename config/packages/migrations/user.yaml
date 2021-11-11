@@ -1,0 +1,5 @@
+em: 'user'
+migrations_paths:
+  # namespace is arbitrary but should be different from App\Migrations
+  # as migrations classes should NOT be autoloaded
+  'DoctrineMigrations': '../../../src/Microservices/Identity/src/Infrastructure/migrations'
