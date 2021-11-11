@@ -88,6 +88,15 @@
     "laminas/laminas-code": {
         "version": "3.4.1"
     },
+<<<<<<< HEAD
+=======
+    "laminas/laminas-eventmanager": {
+        "version": "3.4.0"
+    },
+    "laminas/laminas-zendframework-bridge": {
+        "version": "1.4.0"
+    },
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
     "nikic/php-parser": {
         "version": "v4.12.0"
     },

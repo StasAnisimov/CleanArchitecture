@@ -411,6 +411,7 @@
         },
         {
             "name": "doctrine/dbal",
+<<<<<<< HEAD
             "version": "2.13.4",
             "source": {
                 "type": "git",
@@ -421,6 +422,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/dbal/zipball/2411a55a2a628e6d8dd598388ab13474802c7b6e",
                 "reference": "2411a55a2a628e6d8dd598388ab13474802c7b6e",
+=======
+            "version": "2.13.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/dbal.git",
+                "reference": "0d7adf4cadfee6f70850e5b163e6cdd706417838"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/0d7adf4cadfee6f70850e5b163e6cdd706417838",
+                "reference": "0d7adf4cadfee6f70850e5b163e6cdd706417838",
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
                 "shasum": ""
             },
             "require": {
@@ -433,8 +446,13 @@
             "require-dev": {
                 "doctrine/coding-standard": "9.0.0",
                 "jetbrains/phpstorm-stubs": "2021.1",
+<<<<<<< HEAD
                 "phpstan/phpstan": "0.12.99",
                 "phpunit/phpunit": "^7.5.20|^8.5|9.5.10",
+=======
+                "phpstan/phpstan": "0.12.96",
+                "phpunit/phpunit": "^7.5.20|^8.5|9.5.5",
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
                 "psalm/plugin-phpunit": "0.16.1",
                 "squizlabs/php_codesniffer": "3.6.0",
                 "symfony/cache": "^4.4",
@@ -500,7 +518,11 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/doctrine/dbal/tree/2.13.4"
+=======
+                "source": "https://github.com/doctrine/dbal/tree/2.13.3"
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
             },
             "funding": [
                 {
@@ -516,7 +538,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2021-10-02T15:59:26+00:00"
+=======
+            "time": "2021-09-12T19:11:48+00:00"
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
         },
         {
             "name": "doctrine/deprecations",
@@ -1097,6 +1123,7 @@
         },
         {
             "name": "doctrine/migrations",
+<<<<<<< HEAD
             "version": "3.3.0",
             "source": {
                 "type": "git",
@@ -1107,11 +1134,27 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/migrations/zipball/1967775546df997eb97057911d80184c91c92b9a",
                 "reference": "1967775546df997eb97057911d80184c91c92b9a",
+=======
+            "version": "3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/migrations.git",
+                "reference": "818e31703b4fb353c0c23caa714273fc64efa675"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/818e31703b4fb353c0c23caa714273fc64efa675",
+                "reference": "818e31703b4fb353c0c23caa714273fc64efa675",
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
                 "shasum": ""
             },
             "require": {
                 "composer/package-versions-deprecated": "^1.8",
+<<<<<<< HEAD
                 "doctrine/dbal": "^2.11 || ^3.0",
+=======
+                "doctrine/dbal": "^2.11",
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
                 "doctrine/deprecations": "^0.5.3",
                 "doctrine/event-manager": "^1.0",
                 "friendsofphp/proxy-manager-lts": "^1.0",
@@ -1183,7 +1226,11 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/migrations/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/doctrine/migrations/tree/3.3.0"
+=======
+                "source": "https://github.com/doctrine/migrations/tree/3.2.1"
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
             },
             "funding": [
                 {
@@ -1199,7 +1246,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2021-10-15T16:53:47+00:00"
+=======
+            "time": "2021-08-03T11:49:27+00:00"
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
         },
         {
             "name": "doctrine/orm",
@@ -1523,6 +1574,7 @@
         },
         {
             "name": "laminas/laminas-code",
+<<<<<<< HEAD
             "version": "4.4.3",
             "source": {
                 "type": "git",
@@ -1537,10 +1589,29 @@
             },
             "require": {
                 "php": "^7.4 || ~8.0.0"
+=======
+            "version": "3.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laminas/laminas-code.git",
+                "reference": "1cb8f203389ab1482bf89c0e70a04849bacd7766"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laminas/laminas-code/zipball/1cb8f203389ab1482bf89c0e70a04849bacd7766",
+                "reference": "1cb8f203389ab1482bf89c0e70a04849bacd7766",
+                "shasum": ""
+            },
+            "require": {
+                "laminas/laminas-eventmanager": "^2.6 || ^3.0",
+                "laminas/laminas-zendframework-bridge": "^1.0",
+                "php": "^7.1"
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
             },
             "conflict": {
                 "phpspec/prophecy": "<1.9.0"
             },
+<<<<<<< HEAD
             "require-dev": {
                 "doctrine/annotations": "^1.10.4",
                 "ext-phar": "*",
@@ -1556,6 +1627,30 @@
                 "laminas/laminas-zendframework-bridge": "A bridge with Zend Framework"
             },
             "type": "library",
+=======
+            "replace": {
+                "zendframework/zend-code": "self.version"
+            },
+            "require-dev": {
+                "doctrine/annotations": "^1.7",
+                "ext-phar": "*",
+                "laminas/laminas-coding-standard": "^1.0",
+                "laminas/laminas-stdlib": "^2.7 || ^3.0",
+                "phpunit/phpunit": "^7.5.16 || ^8.4"
+            },
+            "suggest": {
+                "doctrine/annotations": "Doctrine\\Common\\Annotations >=1.0 for annotation features",
+                "laminas/laminas-stdlib": "Laminas\\Stdlib component"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4.x-dev",
+                    "dev-develop": "3.5.x-dev",
+                    "dev-dev-4.0": "4.0.x-dev"
+                }
+            },
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
             "autoload": {
                 "psr-4": {
                     "Laminas\\Code\\": "src/"
@@ -1569,8 +1664,12 @@
             "homepage": "https://laminas.dev",
             "keywords": [
                 "code",
+<<<<<<< HEAD
                 "laminas",
                 "laminasframework"
+=======
+                "laminas"
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
             ],
             "support": {
                 "chat": "https://laminas.dev/chat",
@@ -1580,13 +1679,142 @@
                 "rss": "https://github.com/laminas/laminas-code/releases.atom",
                 "source": "https://github.com/laminas/laminas-code"
             },
+<<<<<<< HEAD
+=======
+            "time": "2019-12-31T16:28:24+00:00"
+        },
+        {
+            "name": "laminas/laminas-eventmanager",
+            "version": "3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laminas/laminas-eventmanager.git",
+                "reference": "a93fd278c97b2d41ebbce5ba048a24e3e6f580ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laminas/laminas-eventmanager/zipball/a93fd278c97b2d41ebbce5ba048a24e3e6f580ba",
+                "reference": "a93fd278c97b2d41ebbce5ba048a24e3e6f580ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ~8.0.0 || ~8.1.0"
+            },
+            "conflict": {
+                "zendframework/zend-eventmanager": "*"
+            },
+            "require-dev": {
+                "container-interop/container-interop": "^1.1",
+                "laminas/laminas-coding-standard": "~2.2.1",
+                "laminas/laminas-stdlib": "^3.6",
+                "phpbench/phpbench": "^1.1",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpunit/phpunit": "^9.5.5"
+            },
+            "suggest": {
+                "container-interop/container-interop": "^1.1, to use the lazy listeners feature",
+                "laminas/laminas-stdlib": "^2.7.3 || ^3.0, to use the FilterChain feature"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laminas\\EventManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Trigger and listen to events within a PHP application",
+            "homepage": "https://laminas.dev",
+            "keywords": [
+                "event",
+                "eventmanager",
+                "events",
+                "laminas"
+            ],
+            "support": {
+                "chat": "https://laminas.dev/chat",
+                "docs": "https://docs.laminas.dev/laminas-eventmanager/",
+                "forum": "https://discourse.laminas.dev",
+                "issues": "https://github.com/laminas/laminas-eventmanager/issues",
+                "rss": "https://github.com/laminas/laminas-eventmanager/releases.atom",
+                "source": "https://github.com/laminas/laminas-eventmanager"
+            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
                     "type": "community_bridge"
                 }
             ],
+            "time": "2021-09-07T22:35:32+00:00"
+        },
+        {
+            "name": "laminas/laminas-zendframework-bridge",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
+                "reference": "bf180a382393e7db5c1e8d0f2ec0c4af9c724baf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/bf180a382393e7db5c1e8d0f2ec0c4af9c724baf",
+                "reference": "bf180a382393e7db5c1e8d0f2ec0c4af9c724baf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ~8.0.0 || ~8.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3",
+                "psalm/plugin-phpunit": "^0.15.1",
+                "squizlabs/php_codesniffer": "^3.5",
+                "vimeo/psalm": "^4.6"
+            },
+            "type": "library",
+            "extra": {
+                "laminas": {
+                    "module": "Laminas\\ZendFrameworkBridge"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/autoload.php"
+                ],
+                "psr-4": {
+                    "Laminas\\ZendFrameworkBridge\\": "src//"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Alias legacy ZF class names to Laminas Project equivalents.",
+            "keywords": [
+                "ZendFramework",
+                "autoloading",
+                "laminas",
+                "zf"
+            ],
+            "support": {
+                "forum": "https://discourse.laminas.dev/",
+                "issues": "https://github.com/laminas/laminas-zendframework-bridge/issues",
+                "rss": "https://github.com/laminas/laminas-zendframework-bridge/releases.atom",
+                "source": "https://github.com/laminas/laminas-zendframework-bridge"
+            },
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+<<<<<<< HEAD
             "time": "2021-09-21T13:40:23+00:00"
+=======
+            "time": "2021-09-03T17:53:30+00:00"
+>>>>>>> 50816275c76cfffc564a27ec814643a7c56ff0ec
         },
         {
             "name": "psr/cache",
