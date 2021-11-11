@@ -1,0 +1,62 @@
+version: '2'
+networks:
+  backend:
+    driver: bridge
+services:
+  #Networks
+  #Postgres
+  postgres:
+    image: postgres
+    ports:
+      - '5433:5432'
+    environment:
+      - POSTGRES_DB=default
+      - POSTGRES_USER=default
+      - POSTGRES_PASSWORD=secret
+    networks:
+      - backend
+  #Elastic
+  elasticsearch:
+    build:
+      context: ./elasticsearch
+    volumes:
+      - /usr/share/elasticsearch/data
+    environment:
+      - cluster.name=laradock-cluster
+      - node.name=laradock-node
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - cluster.initial_master_nodes=laradock-node
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    networks:
+      - backend
+  #Redis
+  redis:
+    build: ./redis
+    volumes:
+      - ~/.volumes/data/redis:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - backend
+  #Rabbit
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: my-rabbit
+    volumes:
+      - ./rabbitmq/etc/definitions.json:/etc/rabbitmq/definitions.json
+      - ./rabbitmq/etc/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+      - ./rabbitmq/data:/var/lib/rabbitmq/mnesia/rabbit@my-rabbit
+      - ./rabbitmq/logs:/var/log/rabbitmq/log
+    ports:
+      - 5672:5672
+      - 15672:15672
